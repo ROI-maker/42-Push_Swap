@@ -1,6 +1,6 @@
 <!--HEADER-->
 <h1 align="center">
-  Push_swap | 
+  Push_Swap | 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/42/white">
     <img alt="42" width=40 align="center" src="https://cdn.simpleicons.org/42/Black">
@@ -64,7 +64,7 @@ This approach allows sorting large lists efficiently while keeping the operation
 > [!WARNING]
 All input numbers must be integers without duplicates.
  
-## Examples / How it works
+## How it works
 
 **Input:**  
 ```bash
