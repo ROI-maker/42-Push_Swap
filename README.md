@@ -18,6 +18,26 @@ Specifically, the objective is to sort **100 numbers in fewer than 700 operation
 This project emphasizes algorithmic thinking, efficiency,  
 and mastering low-level data manipulation in C.
 
+## Mandatory Instructions
+* The program must display the **sequence of operations** used to sort the stack.
+* Only integers without duplicates are allowed as input.
+* The goal is to sort the stack using the **minimum number of moves**.
+* All operations must be valid and adhere to the allowed set:
+
+| Operation | Description                              |
+|-----------|------------------------------------------|
+| `sa`      | Swap the first two elements of stack A   |
+| `sb`      | Swap the first two elements of stack B   |
+| `ss`      | `sa` and `sb` at the same time           |
+| `pa`      | Push the first element of stack B to A   |
+| `pb`      | Push the first element of stack A to B   |
+| `ra`      | Rotate stack A upwards (first element → last) |
+| `rb`      | Rotate stack B upwards                     |
+| `rr`      | `ra` and `rb` at the same time           |
+| `rra`     | Reverse rotate stack A (last element → first) |
+| `rrb`     | Reverse rotate stack B                     |
+| `rrr`     | `rra` and `rrb` at the same time         |
+
 ## Sorting Algorithm: Chunk with Index
 
 The sorting method used in this project is a **chunk-based approach with indexing**.  
@@ -41,27 +61,6 @@ This approach allows sorting large lists efficiently while keeping the operation
 
 > [!WARNING]
 All input numbers must be integers without duplicates.
-
-## Mandatory Instructions
-* The program must display the **sequence of operations** used to sort the stack.
-* Only integers without duplicates are allowed as input.
-* The goal is to sort the stack using the **minimum number of moves**.
-* All operations must be valid and adhere to the allowed set:
-
-| Operation | Description                              |
-|-----------|------------------------------------------|
-| `sa`      | Swap the first two elements of stack A   |
-| `sb`      | Swap the first two elements of stack B   |
-| `ss`      | `sa` and `sb` at the same time           |
-| `pa`      | Push the first element of stack B to A   |
-| `pb`      | Push the first element of stack A to B   |
-| `ra`      | Rotate stack A upwards (first element → last) |
-| `rb`      | Rotate stack B upwards                     |
-| `rr`      | `ra` and `rb` at the same time           |
-| `rra`     | Reverse rotate stack A (last element → first) |
-| `rrb`     | Reverse rotate stack B                     |
-| `rrr`     | `rra` and `rrb` at the same time         |
-
  
 ## Examples / How it works
 
