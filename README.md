@@ -11,7 +11,13 @@
 
 ### What is the project about
 
-Push_Swap is a project that challenges you to sort a list of integers using only two stacks and a limited set of operations. The goal is not just to sort the numbers, but to do it with the minimum number of instructions possible. This project emphasizes algorithmic thinking, efficiency, and mastering low-level data manipulation in C.
+Push_Swap is a project that challenges you to sort a list of integers using only two stacks and a limited set of operations.  
+
+The goal is not just to sort the numbers, but to do it with the minimum number of instructions possible.  
+Specifically, the objective is to sort **100 numbers in fewer than 700 operations** and **500 numbers in fewer than 5500 operations**.  
+
+This project emphasizes algorithmic thinking, efficiency,  
+and mastering low-level data manipulation in C.
 
 ## General Instructions
 * The `Makefile` will compile your source files. It must include an `all` rule for the mandatory part. Relinking should be avoided.
