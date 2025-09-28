@@ -1,11 +1,13 @@
 <!--HEADER-->
-<h1 align="center"> Push_swap | 
+<h1 align="center">
+  Push_swap | 
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/42/white">
-  <img alt="42" width=40 align="center" src="https://cdn.simpleicons.org/42/Black">
- </picture>
- Cursus 
-  <img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/42/white">
+    <img alt="42" width=40 align="center" src="https://cdn.simpleicons.org/42/Black">
+  </picture>
+  Cursus
+  <img alt="Score 100" src="https://img.shields.io/badge/Score-100-green?style=flat-square" 
+       style="vertical-align:middle; margin-left:10px;">
 </h1>
 <!--FINISH HEADER-->
 
