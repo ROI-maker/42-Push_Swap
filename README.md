@@ -9,9 +9,6 @@
 </h1>
 <!--FINISH HEADER-->
 
-<!--MINI DESCRIPTION-->
->  Push_Swap is the first step in mastering sorting algorithms in my development journey, using two stacks and minimal operations.
-
 ### What is the project about
 
 Push_Swap is a project that challenges you to sort a list of integers using only two stacks and a limited set of operations. The goal is not just to sort the numbers, but to do it with the minimum number of instructions possible. This project emphasizes algorithmic thinking, efficiency, and mastering low-level data manipulation in C.
