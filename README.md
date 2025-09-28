@@ -10,7 +10,6 @@
 <!--FINISH HEADER-->
 
 ### What is the project about
-
 Push_Swap is a project that challenges you to sort a list of integers using only two stacks and a limited set of operations.  
 
 The goal is not just to sort the numbers, but to do it with the minimum number of instructions possible.  
@@ -18,6 +17,18 @@ Specifically, the objective is to sort **100 numbers in fewer than 700 operation
 
 This project emphasizes algorithmic thinking, efficiency,  
 and mastering low-level data manipulation in C.
+
+## Sorting Algorithm: Chunk with Index
+
+The sorting method used in this project is a **chunk-based approach with indexing**.  
+
+The list is divided into smaller segments, called **chunks**, whose size depends on the total number of elements.  
+Elements from stack A are pushed **chunk by chunk** into stack B.  
+
+Once all elements of a chunk are in stack B, the stack is **emptied completely back into stack A**, moving numbers from the **largest to the smallest**.  
+During the process, several techniques are applied to **reduce the total number of operations**, such as rotating stacks efficiently and strategically selecting elements to move.  
+
+This approach allows sorting large lists efficiently while keeping the operation count under the project’s limits.
 
 ## General Instructions
 * The `Makefile` will compile your source files. It must include an `all` rule for the mandatory part. Relinking should be avoided.
